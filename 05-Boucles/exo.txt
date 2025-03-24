@@ -1,0 +1,20 @@
+1) Affichez tous les nombres de 1 (inclus) à 10 (inclus) -> fct range
+2) Affichez uniquement les nombres pairs  de 1 (inclus) à 10 (inclus) -> fct range
+3) Affichez un menu:
+
+choix = input("""
+
+    1- Addition: tapez a
+    2- Soustraction: tapez s
+    3- Multiplication: tapez m
+    4- Division: tapez d
+    5- Quitter: tapez q
+
+    choisir une opération: 
+  
+  """)
+
+
+Tant que le choix est différent de q, le menu s'affiche
+Tant que le choix saisi est invalide, redemandez la saisie d'un autre
+Pour un choix vaide, demandez la saisie de 2 nombres réels et affichez le résultat
