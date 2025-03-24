@@ -16,5 +16,6 @@ choix = input("""
 
 
 Tant que le choix est différent de q, le menu s'affiche
-Tant que le choix saisi est invalide, redemandez la saisie d'un autre
-Pour un choix vaide, demandez la saisie de 2 nombres réels et affichez le résultat
+Tant que le choix saisi est invalide, redemandez la saisie d'un autre -> nombre de tentatives est limité à 3
+Gérez le cas d'une division par 0
+Pour un choix valide, demandez la saisie de 2 nombres réels et affichez le résultat
