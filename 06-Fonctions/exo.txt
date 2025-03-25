@@ -1,0 +1,32 @@
+1) Définir une fonction qui renvoie la somme d'une liste d'entiers
+2) Définir une fonction qui renvoie la moyenne d'une liste d'entiers
+3) Définir une fonction qui affiche la table de multiplication d'un nombre
+où le premier et le dernier multiple sont des paramètres
+
+def table_multiplication(nombre, premier_multiple, dernier_multipe):
+    pass
+
+ex: table_multiplication(11,1,12)
+résultat:
+11 x 1 = 11
+11 x 2 = 22
+.
+.
+.
+11 x 12 = 132
+
+4) Affichez un menu:
+
+    choix = input("""
+    
+        1 - Convertir heures en minutes
+        2 - Convertir minutes en heures
+        3 - Quitter
+    
+        Choisir une opération:
+
+    """)
+
+    Tant que choix != '3', le menu s'affiche
+    si choix == '1' -> demandez la saisie du nombre d'heures. Affichez le résultat. Ex: 3 -> 3 h = 180m
+    si choix == '2' -> demandez la saisie du nombre de minutes. Affichez le résultat. Ex: 90 -> 90 m = 1h 30m
