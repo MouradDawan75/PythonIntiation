@@ -85,3 +85,82 @@ def prix_ttc(prix_ht:float, tva:float=0.2):
 print(prix_ttc(80))
 print(prix_ttc(80, tva=0.35)) # si tva change: pas besoin de modifier la fonction
 
+print(">>>>>>>>>>>>> Fonctions qui renvoient plusieurs résultats:")
+
+def somme_et_produit(x,y):
+    somme = x + y
+    produit = x * y
+    return somme,produit
+
+r = somme_et_produit(5,10)
+print(type(r))
+print(r)
+# r est un tuple: c'est une liste non modifiable
+# Unpacking: deballage d'un tuple
+
+s,p = r # extraire les élément du tuple r -> s contient le premier élément et p le 2ème
+print(s)
+print(p)
+    
+
+print(">>>>> Fonctions avec un nombre variable de paramètres:")
+
+print(10,True,'test',10.55)
+
+def somme_variable(*entiers:int):
+    #print(type(entiers)) -> Python utilise un tuple pour stocker les différents paramètres
+    print(entiers)
+
+somme_variable(2,5,8)
+
+print(">>>>> Fonctions natives de Python:")
+
+lst = [2,5,10]
+
+print(sum(lst))
+print(min(lst))
+print(max(lst))
+print(len(lst)) # renvoie le nombre d'éléments
+print(round(3.5689,2))
+
+import statistics
+
+print(statistics.mean(lst)) # la moyenne
+
+#quit() : mettre fin à l'exécution du script en cours
+
+print('>>>>>>>>>>> Variables locales - Variables globales:')
+
+# b et c sont visibles dans tout le script: varibales globales
+b = 10
+c = 10
+
+def modifier():
+    # les variables définies dans une fonctions, sont visibles
+    # uniquement dans la fonction, appelées variables locales
+    global b # on demande à la fonction de manipuer le b global
+    b = 15
+    c = 15
+    v = 50
+    print("************************************")
+    print(locals())
+    print("************************************")
+
+modifier()
+
+print(f'b = {b}')
+print(f'c = {c}')
+
+print(globals())
+
+chemin = "c:\\test.txt"
+
+
+def lecture():
+    global chemin
+
+def ecriture():
+    global chemin
+
+
+
