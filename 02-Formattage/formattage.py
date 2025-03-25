@@ -4,7 +4,7 @@ prenom = 'Marie'
 # Concaténation: conversion des types numériques en str obligatoire
 print('Prénom: '+prenom+' Age: '+str(age))
 
-# Utiliser une virgule comme séparateur: la virgue génère un espace
+# Utiliser une virgule comme séparateur: la virgule génère un espace
 # Aucune conversion en str nécessaire
 print('Prénom:',prenom,'Age:',age)
 
@@ -48,3 +48,9 @@ chemin = 'c:\\test\\notes.xml'
 
 print("ceci est du \"texte\"")
 print('ceci est du "texte"')
+
+
+print('chaine1',end=" ") # chaine1\n
+print('chaine2') # chaine2\n
+
+print('s1','s2',sep=':')

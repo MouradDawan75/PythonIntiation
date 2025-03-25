@@ -6,7 +6,7 @@
 # type textuel: str (string)
 # type boolean: True/False
 ###### COllections:
-# listes: range, tuple, list
+# listes: range, tuple(), list []
 # ensemble: set
 # dictionnaire: dict
 

@@ -3,7 +3,7 @@
 3) Définir une fonction qui affiche la table de multiplication d'un nombre
 où le premier et le dernier multiple sont des paramètres
 
-def table_multiplication(nombre, premier_multiple, dernier_multipe):
+def table_multiplication(nombre, premier_multiple, dernier_multiple):
     pass
 
 ex: table_multiplication(11,1,12)
