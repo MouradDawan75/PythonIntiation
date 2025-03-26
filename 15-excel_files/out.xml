@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>0</index>
+    <nom>dupont</nom>
+    <prenom>marc</prenom>
+    <age>42</age>
+    <sexe>M</sexe>
+  </row>
+  <row>
+    <index>1</index>
+    <nom>durand</nom>
+    <prenom>marie</prenom>
+    <age>30</age>
+    <sexe>F</sexe>
+  </row>
+</data>
