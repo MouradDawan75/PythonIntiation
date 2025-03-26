@@ -1,5 +1,5 @@
 # dict: est une collection non ordonnée qui fonctionne par association clé:valeur
-# Dans un dictionnaire physique, le mot est la clé sa définition est la valeur
+# Dans un dictionnaire physique, le mot est la clé, sa définition est la valeur
 # Dans un dictionnaire les clés sont uniques
 
 # dict vide:
@@ -53,9 +53,9 @@ print(utilisateur.get('telephones'))
 # Afficher la rue:
 print(utilisateur.get('adresse').get('rue'))
 
-print(">>>>>>>>>>>>>> Appelle d'un API Rest:")
+print(">>>>>>>>>>>>>> Appelle d'une API Rest:")
 
-# Web Service Rest - Api Rest: est une application web sans IHM, qui rnvoie du contenu JSON.
+# Web Service Rest - Api Rest: est une application web sans IHM, qui renvoie du contenu JSON.
 # Elle n'est pas limitée au format JSON, elle peut renvoyée du texte, du xml et du binaire.
 
 # Api REST est un ensemble de ressources (images, article d'un journal...) où chaque 

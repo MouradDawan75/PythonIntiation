@@ -1,0 +1,42 @@
+>>>>>>>>>> fichier: demo.txt
+ceci est le contenu du fichierceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+>>>>>>>>>> fichier: test.txt
+ceci est le contenu du fichierceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
